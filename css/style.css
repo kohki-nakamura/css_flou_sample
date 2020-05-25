@@ -1,0 +1,97 @@
+@charset "UTF-8";
+html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.8;
+  word-wrap: break-word;
+}
+
+.l-justify-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.l-justify-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.l-justify-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.l-direction-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: #ff0000;
+}
+
+.u-mt10 {
+  margin-top: 10px;
+}
+
+.u-mt20 {
+  margin-top: 20px;
+}
+
+.u-mt30 {
+  margin-top: 30px;
+}
+
+.l-w25 {
+  width: 25%;
+}
+
+.l-w50 {
+  width: 50%;
+}
+
+.l-w100p {
+  width: 100%;
+}
+
+.l-h100p {
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */

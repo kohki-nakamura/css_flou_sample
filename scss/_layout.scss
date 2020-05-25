@@ -1,0 +1,16 @@
+.l-justify-left {
+	display: flex;
+	justify-content: flex-start;
+}
+.l-justify-right {
+	display: flex;
+	justify-content: flex-end;
+}
+.l-justify-center {
+	display: flex;
+	justify-content: center;
+}
+.l-direction-column {
+	display: flex;
+	flex-direction: column;
+}
